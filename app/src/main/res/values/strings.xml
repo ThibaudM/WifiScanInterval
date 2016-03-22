@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Wifi Scan Interval</string>
+    <string name="seconds">%1$.2f seconds</string>
+    <string name="scan_time">Broadcast scan time</string>
+    <string name="real_scan_time">Real scan time</string>
+</resources>

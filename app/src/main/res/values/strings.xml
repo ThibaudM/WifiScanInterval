@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Wifi Scan Interval</string>
-    <string name="seconds">%1$.2f seconds</string>
-    <string name="scan_time">Broadcast scan time</string>
-    <string name="real_scan_time">Real scan time</string>
+    <string name="information"><![CDATA[<p>When you use this application you will anonymously
+        contribute to wifi scan interval database.<br />
+        <a href="http://thibaud-michel.com/mobile/wifi-scan-interval.txt">
+        http://thibaud-michel.com/mobile/wifi-scan-interval.txt</a><br/>
+        Thank you for sharing.
+        </p>]]></string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="number_of_scans_title">Number of scans</string>
+    <string name="number_of_scans_default">0</string>
+    <string name="api_sampling_rate_title">API sampling rate average</string>
+    <string name="api_sampling_rate_default">xx.xx s</string>
+    <string name="stats_title">Stats on sensors sampling</string>
+    <string name="stats_average">Average: %2.2f s</string>
+    <string name="stats_average_default">Average: xx.xx s</string>
+    <string name="stats_min">Min: %2.2f s</string>
+    <string name="stats_min_default">Min: xx.xx s</string>
+    <string name="stats_max">Max: %2.2f s</string>
+    <string name="stats_max_default">Max: xx.xx s</string>
+    <string name="notification_title">Running …</string>
+    <string name="toast_sharing">Your report have been sent.</string>
 </resources>

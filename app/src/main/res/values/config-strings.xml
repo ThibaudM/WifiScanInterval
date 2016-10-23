@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ws_url">http://thibaud-michel.com/mobile/wifi-scan-interval.php</string>
+</resources>

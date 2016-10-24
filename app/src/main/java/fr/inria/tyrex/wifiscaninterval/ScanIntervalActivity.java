@@ -93,6 +93,10 @@ public class ScanIntervalActivity extends AppCompatActivity {
                     }
                 } else {
                     stopScan();
+
+                    if (mRecorder.getScansNumber() >= 2) {
+                        send();
+                    }
                 }
             }
         });
@@ -144,10 +148,6 @@ public class ScanIntervalActivity extends AppCompatActivity {
         mRecorder.stop();
         mStartStopButton.setText(R.string.start);
         mNotificationManager.cancel(NOTIFICATION_ID);
-
-        if (mRecorder.getScansNumber() >= 2) {
-            send();
-        }
     }
 
 
